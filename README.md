@@ -34,41 +34,74 @@ Thus, the for loop is an important programming construct that improves efficienc
 
 *ALGORITHM*:
 
-*Program 1: *
+*Program 1: Print numbers 1 to 5*
 
-      
+      Start
+      Use range(1,6)
+      Print each number inside the loop
+      Display
 
-*Program 2: *
+*Program 2: Print all odd numbers between 1 to 10*
 
-*Program 3: *
-            
+     Start
+     Use range(1,11,2)
+     Print each value
+     Display Result
+     
+*Program 3: Sum of first N numbers*
+
+     Start
+     Input value of N
+     Initialize sum = 0
+     Iterate from 1 to N
+     Add each number to sum
+     Print sum
+     Display
         
-        
-*Program 4: *
+*Program 4: Display of 3x3 matrix*
 
-      
+    Start
+    Define matrix A
+    Use outer loop for rows
+    Use inner loop for columns
+    Print each element
+    Display result
 
-*Program 5: *
+*Program 5: Multiplication of two 3x3 matirces*
 
-         
+    Start
+    Define matrices A and B
+    Initialize result matrix with zeros
+    Use three nested loops
+    Multiply and add corresponding elements
+    Store result
+    Print result
 
-*Program 6:*
+*Program 6: Print All prime numbers in a range*
+
+    Start
+    Iterate numbers from 2 to 50
+    For each number, check divisibility
+    If divisible, break
+    Else print number
+    Stop
 
            
+*Program 7: Right angle triangle pattern*
 
-*Program 7: *
-
-          
-*Program 8: *
-
-          
-
-*Program 9: *
+    Start
+    Run loop from 10 to 1
+    Print "*" multiplied by loop value
+    Stop
 
           
-*Program 10: *
+*Program 8: Pyramid Pattern*
 
-          
+    Start
+    Set number of rows
+    Loop from 1 to rows
+    Print spaces and stars accordingly
+    Stop      
 
 *CONCLUSION:*
 
